@@ -1,0 +1,12 @@
+{
+  "version": 2,
+  "skills": {
+    "hexo-blog-update": {
+      "source": "Dqz00116/skill-lib",
+      "commit": "312a77ad475fc81f4ed3b5fd1627022c397dc014",
+      "sourceType": "github",
+      "skillPath": "hexo-blog-update/SKILL.md",
+      "computedHash": "d2e062431e044768e8630461809230cc6784ef52e56aeae35ea3a1f8540b0758"
+    }
+  }
+}

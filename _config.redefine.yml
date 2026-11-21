@@ -1,0 +1,68 @@
+info:
+  title: Tiziano Tomas Luzi Ramos
+  subtitle: Software Development & Technology
+  author: Tiziano Tomas Luzi Ramos
+  url: https://blog.portfolio.bid
+
+defaults:
+  favicon: /images/favicon.webp
+  logo:
+  avatar: /images/avatar.webp
+
+colors:
+  primary: "#3B82F6"
+  secondary:
+  default_mode: dark
+
+navbar:
+  auto_hide: false
+
+  color:
+    left: "#1E293B"
+    right: "#3B82F6"
+    transparency: 35
+
+  width:
+    home: 1200px
+    pages: 1000px
+
+  links:
+    Home:
+      path: /
+      icon: fa-regular fa-house
+
+    Articles:
+      path: /articles/
+      icon: fa-regular fa-folder-open
+
+    Projects:
+      path: https://github.com/tizianoluziramos?tab=repositories
+      icon: fa-brands fa-github
+
+    About:
+      path: /about/
+      icon: fa-regular fa-user
+
+  search:
+    enable: false
+    preload: true
+
+footer:
+  runtime: false
+  icon: ""
+  start: 2026/11/21 00:00:00
+  statistics: false
+  customize: "Made with ❤️ by"
+  icp:
+    enable: false
+
+home_banner:
+  enable: false
+
+comment:
+  enable: true
+  system: waline
+  config:
+    waline:
+      serverUrl: https://comments.blog.portfolio.bid
+      lang: en-US
