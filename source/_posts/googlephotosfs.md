@@ -168,5 +168,3 @@ In the default flat view, deleting a media item can move the actual Google Photo
 GooglePhotosFS is an independent project, not an official Google Photos desktop client. It uses Google's mobile authentication and service endpoints, so changes on Google's side can affect compatibility. Account restrictions and storage limits still apply.
 
 The idea is straightforward: keep the remote media library, but give it a familiar filesystem interface. If that sounds useful, the [GooglePhotosFS repository](https://github.com/tizianoluziramos/GooglePhotosFS) has the source, current instructions, and downloads.
-
-<!-- Banner uses the Google Photos logo downloaded from https://www.gstatic.com/images/branding/product/2x/photos_96dp.png, centered on a background matching the TelegramFS banner. -->

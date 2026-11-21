@@ -23,6 +23,7 @@
 - Content is English; dates use `America/Argentina/Buenos_Aires`. Post URLs are `/YYYY/MM/DD/<slug>/`, so changing dates or filenames changes links.
 - The archive route is `/articles/`, not Hexo's default `/archives/`. The existing About navigation points to `/about/`, backed by `source/about/index.md`.
 - `scaffolds/post.md` omits categories and excerpt separators. Add relevant categories/tags and use `<!--more-->` when an explicit excerpt is wanted.
+- Do not add comments to blog posts. The only allowed comment is the `<!--more-->` excerpt separator.
 - Standalone pages use `layout: page`; the theme supplies the H1 from the title, so start body sections at H2. Follow the About page's `comment: false` and `comments: false` when comments should be disabled.
 - Store shared images in `source/images/` and reference `/images/<filename>`; `post_asset_folder` is disabled. The TelegramFS banner is a local WebP, not a hotlinked background.
 - `.agents/skills/hexo-blog-update/SKILL.md` contains the content/preview workflow; defer to actual scripts and configuration where its generic setup or deployment advice conflicts.
